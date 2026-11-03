@@ -1,13 +1,20 @@
 {
   "name": "hbs",
   "description": "Express.js template engine plugin for Handlebars",
-  "version": "4.2.1",
+  "version": "4.2.1-lineaje-01",
   "author": "Don Park <donpark@docuverse.com> (http://blog.docuverse.com)",
   "contributors": [
-    "Roman Shtylman <shtylman@gmail.com>"
+    "Roman Shtylman <shtylman@gmail.com>",
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
   ],
   "license": "MIT",
-  "repository": "pillarjs/hbs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/pillarjs-hbs"
+  },
   "main": "lib/hbs.js",
   "dependencies": {
     "handlebars": "4.7.9",
