@@ -17,7 +17,7 @@
   },
   "main": "lib/hbs.js",
   "dependencies": {
-    "handlebars": "4.7.9",
+    "handlebars": ">=4.7.10",
     "walk": "2.3.15"
   },
   "devDependencies": {
@@ -43,5 +43,11 @@
     "test": "mocha --reporter spec --ui qunit --bail test/*/index.js",
     "test-ci": "nyc --reporter=lcov --reporter=text npm test",
     "test-cov": "nyc --reporter=html --reporter=text npm test"
+  },
+  "overrides": {
+    "handlebars": ">=4.7.10"
+  },
+  "resolutions": {
+    "handlebars": ">=4.7.10"
   }
 }
